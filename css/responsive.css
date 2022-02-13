@@ -1,0 +1,492 @@
+
+/* medium Devices (Desktops &  Laptops) */
+@media (max-width: 1440px) {
+    #born, #nft, #road-map{
+        max-height: 760px;
+    }
+
+    #born p{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    /*Future*/
+    #future .content-box-md{
+        padding:50px;
+    }
+
+    .about-item p{
+        max-height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #fff;
+    }
+
+    /*nft*/
+    .trait p{
+        max-height: 100px;
+        overflow: hidden;
+        font-size: 14px;
+        text-overflow: ellipsis;
+    }
+
+    /*road map*/
+    #road-map h2 {
+        font-size: 28px;
+    }
+    #footer .fa-twitter,
+    #footer .fa-telegram{
+        font-size: 25px;
+    }
+}
+
+/* Small Laptops and Computers*/
+@media (max-width: 1199px) {
+    
+    #born, #nft, #road-map{
+        max-height: 650px;
+    }
+    
+    .trait p{
+        max-height: 50px;
+    }
+
+    #born p{
+        font-size: 14px;
+    }
+
+    #nft p{
+        font-size: 12px;
+        max-height: 120px;
+        margin-block-end: -10px;
+    }
+
+    /*road map*/
+    #road-map h2 {
+        font-size: 20px;
+    }
+
+    .content-box-md {
+        padding: 50px 0;
+    }
+
+    .company-ability {
+        margin-top: 15%;
+    }
+    .company-ability p {
+        max-height: 150px;
+        overflow: hidden;
+    }
+
+    .about-item:hover{
+        height: 500px;
+    }
+
+    #nft img{
+        margin: 70px 0;
+    }
+}
+
+/*Portrait Tablets and Small Desktops*/
+@media (max-width: 991px){
+    #nft h1, #born h1{
+        font-size: 30px;
+    }
+
+    #born p {
+        font-size: 12px;
+    }
+
+    #future h3{
+        font-size: 25px;
+    }
+
+    .about-item hr{
+        width: 100px;
+        height: 2px;
+    }
+
+    .about-item p {
+        font-size: 12px;
+    }
+
+    .about-item {
+        padding: 40px 20px;
+    }
+
+    #nft img{
+        margin-top: 150px;
+    }
+    
+    #nft row{
+        padding-bottom: 100px;
+    }
+
+    .vertical-heading h2{
+        font-size: 25px;
+    }
+
+    #company-left p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    #born .col-xs-5{
+        margin-right: -50px;
+    }
+    #future .col-xs-4{
+        max-width: 800px;
+        padding: 10px;
+    }
+    #future h3{
+        font-size: 20px;
+    }
+    #future p{
+        margin-left: 5px;
+    }
+    #nft .nft{
+        max-height: 600px;
+    }
+    #nft p{
+        font-size: 14px;
+    }
+    #nft h4{
+        font-size: 16px;
+    }
+    #nft img{
+        max-width: 200px;
+        margin-top: 100px;
+    }
+
+    #company .col-xs-12{
+        max-width: 800px;
+    }
+    #company p{
+        font-size: 9pt;
+        margin-bottom: 20px;
+    }
+    #company h2{
+        font-size: 50px;
+    }
+    #company .row{
+        margin-bottom: 30px;
+    }
+    #company-left{
+        margin-bottom: -100px;
+    }
+    #company .company-ability{
+        margin-bottom: -30px;
+    }
+    #company .col-xs-12{
+        margin-block-end: 20px;
+    }
+    
+      #road-map .content-box-md{
+        padding: 0;
+        margin: 0;
+    }
+
+}
+
+
+
+@media (max-width: 540px){
+    #born{
+        background-position: right bottom;
+    }
+    #nft img{
+        max-width: 230px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 270px;
+    }
+    .about-item:hover{
+        height: 300px;
+    }
+    #nft .trait{
+        margin-block-end: 50px;
+    }
+    #road-map .col-xs-3,
+    #road-map .col-xs-5{
+        max-width: 250px;
+        margin-top: 10px;
+    }
+    #footer h4{
+        font-size: 20px;
+    }
+    #footer .col-md-4{
+        max-width: 160px;
+    }
+    #footer h5{
+        font-size: 18px;
+    }
+    #footer .fa-twitter,
+    #footer .fa-telegram{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 425px){
+    
+    #born p{
+        font-size: 15px;
+    }
+    #born .col-xs-7{
+        margin-left: 10px;
+    }
+    .about-item:hover{
+        height: 400px;
+    }
+    #future .col-xs-4{
+        margin-block-end: 15px;
+    }
+    #nft{
+        background-position: left bottom;
+    }
+    #nft img{
+        size-adjust: 50%;
+    }
+    #nft img{
+        margin-top: 65%;
+    }
+    #company p{
+        margin-block-end: 40px;
+    }
+    #company h2{
+        font-size: 43px;
+    }
+    #company .company-ability{
+        margin-top: 80px;
+    }
+    
+    #nft img{
+        max-width: 170px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 210px;
+    }
+
+    #nft .trait{
+        margin-block-end: 20px;
+    }
+    
+    #road-map h2{
+        font-size: 14px;
+    }
+    #road-map .task{
+        text-align: center;
+    }
+
+    #road-map .col-xs-4{
+        width: 40px;
+    }
+ 
+    #road-map .col-xs-3,
+    #road-map .col-xs-5{
+        max-width: 150px;
+        margin-top: 10px;
+    }
+    #road-map{
+        background-position: right bottom;
+    }
+    #footer h1{
+        font-size: 40px;
+    }
+    #footer h4{
+        font-size: 15px;
+    }
+    #footer .col-md-4{
+        max-width: 400px;
+    }
+    #footer h5{
+        font-size: 12px;
+    }
+    #footer .fa-twitter,
+    #footer .fa-telegram{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 414px){
+    #born p{
+        font-size: 12px
+    }
+
+    #nft img{
+        max-width: 190px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 412px){
+    #company h2{
+        font-size: 39px;
+    }
+}
+
+@media (max-width: 393px){
+    #nft img{
+        max-width: 190px;
+    }
+    #nft p{
+        font-size: 11px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 195px;
+    }
+    #footer h1{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 390px){
+    #nft img{
+        max-width: 180px;
+        margin-top: 75%;
+        }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 375px){
+    #born{
+        background-position: right bottom;
+    }
+    #born p{
+        font-size: 15px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    #future .row,
+    #future .container{
+        width: 350px;
+        margin-left: -24px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 185px;
+    }
+    #nft img{
+        width: 180px;
+        height: 230px;
+    }
+    #company h2{
+        font-size: 38px;
+    }
+    #company .company-ability{
+        margin-bottom: -400x;
+    }
+    #company span{
+        margin-bottom: 500px;
+    }
+}
+
+@media (max-width: 360px){
+    #nft img{
+        max-width: 170px;
+    }    
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 180px;
+    }
+    #company h2{
+        font-size: 30px;
+    }
+    #footer h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 320px){
+    #born p{
+        font-size: 12px;
+    }
+    #future .col-xs-4{
+        max-width: 280px;
+        margin-block-end: 5px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 160px;
+    }
+    #nft p{
+        font-size: 10px;
+    }
+    #nft img{
+        max-width: 140px;
+        max-height: 180px;
+        margin-top: 130px;
+    }
+    #company h2{
+        font-size: 30px;
+    }
+    #company .company-ability{
+        margin-top: 80px;
+    }
+    #road-map .col-xs-3,
+    #road-map .col-xs-5{
+        margin-right: 15px;
+        max-width: 130px;
+        margin-top: 10px;
+    }
+    #road-map .col-xs-4{
+        max-width: 5px;
+        margin-right: -20px;
+    }
+    #road-map h2{
+        font-size: 12px;
+    }
+    #footer h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 280px){
+    #born p{
+        font-size: 10px;
+    }
+    .about-item:hover{
+        height: 450px;
+    }
+    #future .col-xs-4{
+        max-width: 260px;
+    }
+    #nft .col-xs-8,
+    #nft .col-xs-4{
+        max-width: 140px;
+    }
+    #nft img{
+        max-width: 120px;
+    }
+    #company h2{
+        font-size: 25px;
+    }
+    #road-map .col-xs-3,
+    #road-map .col-xs-5{
+        max-width: 120px;
+    }
+    #footer h1{
+        font-size: 20px;
+    }
+    #footer h5{
+        font-size: 02px;
+    }
+    #footer .fa-twitter,
+    #footer .fa-telegram{
+        font-size: 20px;
+    }
+    
+}

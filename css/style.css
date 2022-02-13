@@ -1,0 +1,335 @@
+/* Default Theme============================
+    ------------------------------------------
+    Colors:
+        red     = #da392b == rgba(218,57,43,1)
+        white   = #fff
+        grey    = #212226
+        black   = #000
+    -----------------------------------------
+    Font: 'Gothis A1', 'Noto Sans KR'
+
+=============================================*/
+
+/*Preloader*/
+#preloader {
+    background: #000;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index:9999;
+}
+
+#status {
+    background-image: url("../img/preloader.gif");
+    background-repeat: repeat;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+
+/*===========================================
+|   |   |   |   Html,Body    |   |   |   |   |
+============================================*/
+html, body{
+    height: 100%;
+}
+
+body{
+    color: #fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1{
+    font-family: "Noto Sans KR", sans-serif;
+    color: #da392b;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+section{
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.content-box-lg {
+    padding: 120px 0;
+}
+
+.content-box-md {
+    padding: 100px 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.forever {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    -ms-animation-iteration-count: infinite;
+}
+
+/*===========================================
+|   |   |   |   |   born    |   |   |   |   |
+============================================*/
+#born {
+    background: #000 url(../img/vodoo.jpg);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.3;
+    position: absolute;
+}
+
+#born-title h1{
+    margin-bottom: 15px;
+    margin-top: 15%;
+}
+
+#born-title{
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+}
+
+#born p{
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+}
+
+/*===========================================
+|   |   |   |   |   future  |   |   |   |   |
+============================================*/
+.overflow-visible{
+    overflow: visible !important;
+}
+
+#future {
+    background-color: #000;
+    color: #fff;
+}
+
+#future .content-box-md{
+    padding: 100px;
+}
+
+.about-item {
+    background-color: #000;
+    padding: 80px 30px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    height:100%;
+    -webkit-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+    border: 1px solid #fff;
+}
+
+.about-item h3{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.about-item hr{
+    width: 200px;
+    height: 3px;
+    background-color: #da392b;
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p{
+    margin-top: 20px;
+}
+
+
+/*===========================================
+|   |   |   |   |   nft    |   |   |   |   |
+============================================*/
+#nft {
+    background: #000 url(../img/pyro_right.jpg);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+#nft img{
+    margin: 50px 0;
+}
+.trait {
+    margin: 20px;   
+}
+
+.trait h4{
+    font-size: 24px;
+    margin: 0 0 8px 0;
+    color: #da392b;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.trait p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+}
+
+/*===========================================
+|   |   |   |   |   road-map |   |   |   |   |
+============================================*/
+#road-map {
+    background: #000 url(../img/Wolf_Rider.jpg);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#road-map{
+    font-weight: 500;
+    text-align: center;
+}
+
+#road-map .task{
+    text-align: left;
+}
+
+#road-map .row{
+    margin-top: 30px;
+}
+
+/*===========================================
+|   |   |   Company Ability  |   |   |   |   |
+============================================*/
+#company{
+    background: #000;
+}
+
+#company-left p{
+    margin: 35px 0;
+}
+
+.company-ability{
+    background: #000;
+    padding: 20px;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    height: 100%;
+    border: 1px solid #fff;
+}
+
+.company-ability h4{
+    line-height: 40px;
+    margin: 0 0 20px 0;
+}
+
+.company-ability > p{
+    line-height: 24px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.company-ability a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #da392b;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.company-ability a:hover{
+    color: #212226;
+}
+
+.vertical-heading h5{
+    color: #da392b;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    display: inline-block;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    position: relative;
+    top: 60px;
+    left: -60px;
+}
+
+.vertical-heading h2{
+    margin: 0 0 0 35px;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
+}
+
+/*===========================================
+|   |   |   footer  |   |   |   |   |
+============================================*/
+footer{
+    background: #000;
+    color: #fff;
+    padding: 30px;
+    font-family: "Noto Sans KR",sans-serif;
+}
+
+footer p{
+    line-height: 20px;
+}
+
+footer p span {
+    color: #da392b;
+    font-weight: 400;
+}
+
+footer .fa-twitter,
+footer .fa-telegram{
+    font-size: 40px;    
+}
+
